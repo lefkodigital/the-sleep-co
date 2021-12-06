@@ -1,0 +1,74 @@
+/* font-family: 'Catamaran', sans-serif;
+200, 400, 500, 800 */
+
+/* CSS Reset */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/* Universal Styles & Utility Classes */
+
+.bg-dark {
+    background-color:#192b37;
+    color:white;
+}
+
+.text-left      {text-align:left;}
+.text-center        {text-align:center;}
+.-text-right    {text-align:right;}
+
+.tall-40 {min-height:40vh;}
+.tall-50 {min-height:50vh;}
+.tall-60 {min-height:60vh;}
+.tall-70 {min-height:70vh;}
+.tall-80 {min-height:80vh;}
+.tall-90 {min-height:90vh;}
+.tall-100 {min-height:100vh;}
+
+/* Typography Styles */
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    color:#192b37;
+}
+
+.featured-text {color:#ffbe00;}
+
+
+/* Padding Classes */
+
+.padding    {padding:5%}
+.padding-1  {padding:1rem;}
+
+
+
+/* Image Styles */
+
+.bg-bed {
+    background-image:url(/images/bed.jpg);
+    background-size:cover;
+    max-width:100%;
+}
+
+.bg-pug {
+    background-image:url(/images/puppy.jpg);
+    background-size: cover;
+    max-width:100%;
+}
+
+/* Header Styles */
+
+header {
+    background-image: url('/images/bed.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+header h3 {
+    font-size:5rem;
+    text-transform:lowercase;
+    line-height:1;
+}
